@@ -1,0 +1,65 @@
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--acсent-color: #2196f3;
+	--text-white: #ffffff;
+}
+
+body {
+	background-color: #ffffff;
+	color: var(--primary-text-color);
+}
+.list {
+	list-style: none;
+}
+
+/* Site nav */
+.logo-web {
+	color: var(--accent-color);
+}
+.logo-studio {
+	color: #000000;
+}
+.site-nav .link {
+	color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--accent-color);
+}
+
+.contacts-link {
+	color: var(--primary-text-color);
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+	color: var(--accent-color);
+}
+.section-title {
+	color: var(--title-text-color);
+}
+
+/* HERO */
+.hero {
+	background-color: #2f303a;
+	color: var(--text-white);
+}
+.button {
+	background-color: var(--acсent-color);
+	color: var(--text-white);
+}
+/* Features */
+.fetures-list .title {
+	color: var(--title-text-color);
+}
+/* цвет Web color: #2196F3; */
+/* цвет основного текста color: #212121; */
+/* белый color: #FFFFFF;*/
+/* цвет дополнительного текста  color: #757575;*/
+/* цвет акцента color: #2196F3; */
+/* цвет фона background: #E5E5E5; */
+/* цвет фона у команды : #F5F4FA */
+/* цвет фона у футера  background: #2F303A;*/
+/* цвет контактов в футере color: rgba(255, 255, 255, 0.6);  */
