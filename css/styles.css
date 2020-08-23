@@ -3,6 +3,7 @@
 	--title-text-color: #212121;
 	--accent-color: #2196f3;
 	--text-white: #ffffff;
+	--bg-secondary: #f5f4fa;
 }
 
 body {
@@ -130,7 +131,7 @@ body {
 /* STAFF */
 
 .section.staff {
-	background-color: #f5f4fa;
+	background-color: var(--bg-secondary);
 }
 
 .staff .title {
@@ -174,6 +175,8 @@ body {
 /* Портфолио */
 
 .portfolio .button {
+	background-color: var(--bg-secondary);
+	color: var(--title-text-color);
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.6;
